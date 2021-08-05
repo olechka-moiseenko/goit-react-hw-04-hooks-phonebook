@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import s from "./ContactListItem.module.css";
+import s from "./SearchContact.module.css";
 
 export default function SearchContact({ value, inputChange }) {
   return (
