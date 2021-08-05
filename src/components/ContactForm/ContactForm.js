@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { reset } from "yargs";
 import s from "./ContactForm.module.css";
 
 function ContactForm({ handleSubmit }) {
@@ -9,7 +8,7 @@ function ContactForm({ handleSubmit }) {
   const handleSetInfo = (e) => {
     switch (e.target.name) {
       case "name":
-        setName(e.target.name);
+        setName(e.target.value);
         break;
       case "number":
         setNumber(e.target.value);
